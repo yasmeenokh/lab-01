@@ -1,0 +1,159 @@
+@media (min-width: 768px) {
+    body{
+        width: 960px;
+        height: 768px;
+        border: solid  gray 1px;
+        margin: 40px auto;
+
+    }
+    main{
+        background-color: #eee;
+
+    }
+     header div {
+         height: 65px;
+         background-color: #eee;
+
+     }
+    
+    .a {
+        width: 100%;
+        height: 100px;
+        text-align: center;
+    }
+
+    .b, .c, .d, .e, .f, .g, .h, .i{
+        background-color: #eee;
+    }
+
+    .b{
+        width: 200px;
+        height: 600px;
+        float: left;
+        border-right:solid  gray 1px ;
+        border-top: solid  gray 1px;
+    }
+    .c{
+        width: 380px;
+        height: 200px;
+        border-bottom: solid  gray 1px;
+        border-right: solid  gray 1px;
+        border-top: solid  gray 1px;
+        float: left;
+
+        
+    }
+    .d{
+        width: 380px;
+        height: 200px;
+        border: solid  gray 1px;
+        float: right;
+        bottom: 200px;
+        position: relative;
+        left: 1.5px;
+
+
+    }
+    
+    .e , .f, .g, .h{
+        height: 250px;
+        width: 190px;
+        border-right: solid  gray 1px;
+        border-bottom: solid  gray 1px;
+        float: left;   
+    }
+    .f , .g, .h{
+        position: relative;
+        bottom: 200px;
+    }
+    .h{
+        left: 769px;
+        bottom: 450px;
+        border-left:solid  gray 1px ;
+        
+    }
+
+    .i{
+        width: 760px;
+        height: 150px;
+        float: right;
+        border-left: solid  gray 1px;
+        position: relative;
+        bottom: 200px;
+        left: 1.5px;
+        border-right: solid  gray 1px;
+
+    }
+    
+
+}
+
+@media (max-width: 767px){
+    body{
+        border: solid  rgb(155, 140, 140) 1px;
+        margin: 30px 10px;
+    }
+    main{
+        background-color: #eee;
+
+    }
+    .a {
+        width: 100%;
+        height: 75px;
+        text-align: center;
+        border-bottom: solid gray 1px;
+    }
+
+    .b{
+        width: 100%;
+        height: 150px;
+
+    }
+    .c , .d {
+        width: 100%;
+        height: 125px;
+        border-bottom: solid  gray 1px;
+        border-top: solid  gray 1px;
+
+        
+    }
+    .d{
+        border-top: none;
+    }
+
+
+    .e, .f, .g, .h{
+        width: 240px;
+        height: 250px;
+        border-right: solid  gray 1px;
+        border-bottom: solid  gray 1px;
+    }
+    .f {
+        position: relative;
+        left: 240px;
+        bottom: 250px;
+    }
+    .g{
+        position: relative;
+        bottom: 250px;
+    }
+    .h {
+        position: relative;
+        bottom: 500px;
+        left:240px;
+    }
+
+    
+    
+    .i{
+        width: 100%;
+        height: 80px;
+        position: relative;
+        bottom: 450px;
+        border-bottom: solid gray 1px;
+
+        
+    }
+    
+
+}
