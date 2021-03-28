@@ -1,0 +1,52 @@
+@media (min-width: 768px) {
+    p{ 
+        text-align: center;
+    }
+    .a p{ 
+        padding-top: 35px;
+    }
+
+    .c p, .d p{
+        padding-top: 85px;
+
+    }
+    .e p, .f p, .g p, .h p{
+        padding-top: 105px;
+
+    }
+
+    .b p{
+        padding-top: 300px ;
+    }
+
+    .i p{
+        padding-top: 55px;
+    }
+
+}
+
+@media (max-width: 767px){
+    p{ 
+        text-align: center;
+    }
+    .a p{ 
+        padding-top: 25px;
+    }
+
+    .c p, .d p{
+        padding-top: 40px;
+
+    }
+    .e p, .f p, .g p, .h p{
+        padding-top: 105px;
+
+    }
+
+    .b p{
+        padding-top: 60px ;
+    }
+
+    .i p{
+        padding-top: 5px;
+    }
+}
